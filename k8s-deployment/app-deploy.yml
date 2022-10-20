@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: mahendrshinde/api-app
+        image: acregistryapp.azurecr.io/mahendrshinde/api-app:1
         env:
           - name: DBURL
             valueFrom:
